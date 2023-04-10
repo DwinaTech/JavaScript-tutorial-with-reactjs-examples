@@ -3,14 +3,14 @@ import "./App.css";
 const App = () => {
   // Variable name = dataType
   const tutorialName = "JavaScript";
-  const boolean = true; // false;
+  /* const boolean = true; // false;
   const number = 1;
   const object = { key: "Object value" };
   const array = [];
   const fun = () => {};
   const classVariable = class {
     constructor(item1, item2) {}
-  };
+  };*/
 
   // const max = 10;
   // const min = 0;
