@@ -2,7 +2,8 @@ import "./App.css";
 
 const App = () => {
   // Variable name = dataType
-  const tutorialName = "JavaScript tutorial";
+  var tutorialName = "JavaScript tutorial";
+  // const tutorialName = "JavaScript tutorial";
   /* const boolean = true; // false;
   const number = 1;
   const object = { key: "Object value" };
