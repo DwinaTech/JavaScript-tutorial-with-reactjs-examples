@@ -12,10 +12,10 @@ const App = () => {
     message = "Mohammed is older then 60 years old";
   } else if (age <= 54) {
     message = "Mohammed age is 54 years old or less";
-  } else if (age >= 59) {
+  } else if (age >= 58) {
     message = "Mohammed age is 59 years old or more";
   } else if (age !== 20) {
-    // 58 - 56
+    // 57 - 56
     message = `Mohammed age is not equal to 20 years, it is ${age}`;
   } else {
     message = "";
