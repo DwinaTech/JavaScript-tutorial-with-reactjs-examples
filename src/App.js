@@ -5,25 +5,29 @@ const App = () => {
   const min = 0;
   const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
-  let tutorialName = "JavaScript";
-  if (randomNumber % 2 === 0) {
+  let tutorialName = "JavaScript: Conditions";
+
+  /*if (randomNumber % 2 === 0) {
     tutorialName = "HTML";
+  }*/
+
+  // tutorialName = randomNumber % 2 === 0 ? "HTML" : tutorialName;
+
+  switch (randomNumber % 2 === 0) {
+    case true:
+      tutorialName = "CSS";
+      break;
+    case false:
+      tutorialName = "HTML";
+      break;
+    default:
+      break;
   }
-
-  // switch (randomNumber % 2 === 0) {
-  //   case true:
-  //     tutorialName = "HTML";
-  //     break;
-  //   default:
-  //     break;
-  // }
-
-  // const tutorialName = randomNumber % 2 === 0 ? tutorialName = "HTML" : "JavaScript";
 
   return (
     <div className="App">
       <h1>{tutorialName}</h1>
-      <h2>Random Number: {randomNumber}</h2>
+      <h2>Random number: {randomNumber}</h2>
     </div>
   );
 };
