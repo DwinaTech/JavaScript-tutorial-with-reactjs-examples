@@ -10,6 +10,14 @@ const App = () => {
     tutorialName = "HTML";
   }
 
+  // switch (randomNumber % 2 === 0) {
+  //   case true:
+  //     tutorialName = "HTML";
+  //     break;
+  //   default:
+  //     break;
+  // }
+
   // const tutorialName = randomNumber % 2 === 0 ? tutorialName = "HTML" : "JavaScript";
 
   return (
