@@ -4,7 +4,7 @@ const App = () => {
   // Variable name = dataType
   var tutorialName = "JavaScript tutorial";
   // const tutorialName = "JavaScript tutorial";
-  /* const boolean = true; // false;
+  /* const boolean = true; // false boolean;
   const number = 1;
   const object = { key: "Object value" };
   const array = [];
