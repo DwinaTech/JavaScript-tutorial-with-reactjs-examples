@@ -3,7 +3,9 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <h1>JavaScript</h1>
+      <div>
+        <h1>JavaScript</h1>
+      </div>
     </div>
   );
 };
