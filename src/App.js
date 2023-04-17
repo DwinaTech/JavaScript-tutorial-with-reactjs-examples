@@ -16,8 +16,20 @@ const App = () => {
     <div className="App">
       <div>
         <h1>JavaScript events:</h1>
-        <input onChange={handleChange} onMouseDown={() => {}} />
-        <button onClick={handleClick}>Submit</button>
+        <input
+          // onChange={(event) => {
+          //   handleChange(event)
+          // }}
+          onChange={handleChange}
+        />
+        <button
+          // onClick={(event) => {
+          //   handleClick(event)
+          // }}
+          onClick={handleClick}
+        >
+          Submit
+        </button>
       </div>
     </div>
   );
